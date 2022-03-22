@@ -4,18 +4,19 @@
   "description": "A typescript template",
   "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "coolthing": "node-ts ./src/index.ts"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/EthanLibs/AetherTSTemplate.git"
+    "url": "git+https://github.com/AetherLibs/Core.git"
   },
   "author": "The Aether Team <git@ethanlibs.co> (aether.codes)",
-  "license": "Unlicense",
+  "license": "",
   "bugs": {
-    "url": "https://github.com/EthanLibs/AetherTSTemplate/issues"
+    "url": "https://github.com/AetherLibs/Core/issues"
   },
-  "homepage": "https://github.com/EthanLibs/AetherTSTemplate#readme",
+  "homepage": "https://github.com/AetherLibs/Core#readme",
   "packageManager": "yarn@3.2.0",
   "devDependencies": {
     "@aethernet/tsconfig": "^1.1.1",
@@ -36,41 +37,41 @@
     "got": "^12.0.2"
   },
   "prettier": {
-		"printWidth": 200,
-		"tabWidth": 4,
-		"useTabs": true,
-		"semi": false,
-		"singleQuote": true,
-		"quoteProps": "as-needed",
-		"trailingComma": "es5",
-		"bracketSpacing": true,
-		"arrowParens": "always",
-		"embeddedLanguageFormatting": "auto"
-	},
-	"eslintConfig": {
-		"env": {
-			"es2021": true,
-			"node": true
-		},
-		"extends": [
-			"eslint:recommended",
-			"plugin:@typescript-eslint/recommended",
-			"prettier"
-		],
-		"parser": "@typescript-eslint/parser",
-		"parserOptions": {
-			"ecmaVersion": 12,
-			"sourceType": "module"
-		},
-		"plugins": [
-			"@typescript-eslint"
-		],
-		"ignorePatterns": [
-			"dist"
-		],
-		"rules": {
-			"@typescript-eslint/explicit-module-boundary-types": "off",
-			"@typescript-eslint/no-non-null-assertion": "off"
-		}
-	}
+    "printWidth": 200,
+    "tabWidth": 4,
+    "useTabs": true,
+    "semi": false,
+    "singleQuote": true,
+    "quoteProps": "as-needed",
+    "trailingComma": "es5",
+    "bracketSpacing": true,
+    "arrowParens": "always",
+    "embeddedLanguageFormatting": "auto"
+  },
+  "eslintConfig": {
+    "env": {
+      "es2021": true,
+      "node": true
+    },
+    "extends": [
+      "eslint:recommended",
+      "plugin:@typescript-eslint/recommended",
+      "prettier"
+    ],
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+      "ecmaVersion": 12,
+      "sourceType": "module"
+    },
+    "plugins": [
+      "@typescript-eslint"
+    ],
+    "ignorePatterns": [
+      "dist"
+    ],
+    "rules": {
+      "@typescript-eslint/explicit-module-boundary-types": "off",
+      "@typescript-eslint/no-non-null-assertion": "off"
+    }
+  }
 }
