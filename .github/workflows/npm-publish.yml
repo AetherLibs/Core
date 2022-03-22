@@ -30,6 +30,7 @@ jobs:
           node-version: 17
           registry-url: https://registry.npmjs.org/
       - run: corepack enable
+      - run: yarn
       - run: yarn tsc
       - run: npm publish --access=public
         env:
