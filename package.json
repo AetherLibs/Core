@@ -1,7 +1,7 @@
 {
-  "name": "aethertstemplate",
+  "name": "@aethernet/core",
   "version": "1.0.0",
-  "description": "A typescript template",
+  "description": "Core",
   "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
