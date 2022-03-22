@@ -1,0 +1,4 @@
+tasks:
+  - init: nvm install && nvm use && yarn install
+
+
