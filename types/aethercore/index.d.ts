@@ -1,4 +1,4 @@
-// Type definitions for aethercore 1.0
+// Type definitions for aethercore 1.1
 // Project: https://github.com/AetherLibs/Core (Does not have to be to GitHub, but prefer linking to a source code repository rather than to a project website.)
 // Definitions by: EthanDevelops <https://github.com/AetherLibs>
 // Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped

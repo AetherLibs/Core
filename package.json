@@ -1,6 +1,6 @@
 {
   "name": "aethercore",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Core",
   "main": "dist/index.js",
   "scripts": {
