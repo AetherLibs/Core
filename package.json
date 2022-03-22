@@ -1,5 +1,5 @@
 {
-  "name": "@aethernet/core",
+  "name": "aethercore",
   "version": "1.0.0",
   "description": "Core",
   "main": "dist/index.js",

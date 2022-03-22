@@ -1,7 +1,7 @@
 import chalk from 'chalk';
 
 class Logger {
-    name?: string | undefined;
+    name?: string;
     errorhex!: string;
     infohex!: string;
     warnhex!: string;
