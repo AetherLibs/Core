@@ -1,12 +1,12 @@
 {
   "name": "aethercore",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Core",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "coolthing": "node-ts ./src/index.ts"
+    "build": "yarn tsc",
+    "dist": "yarn rimraf ./dist && yarn build"
   },
   "repository": {
     "type": "git",
@@ -32,6 +32,9 @@
     "typescript": "^4.6.2",
     "validator": "^13.7.0"
   },
+  "files": [
+    "dist"
+  ],
   "dependencies": {
     "@types/node": "^17.0.21",
     "chalk": "^5.0.1",
@@ -74,5 +77,8 @@
       "@typescript-eslint/explicit-module-boundary-types": "off",
       "@typescript-eslint/no-non-null-assertion": "off"
     }
+  },
+  "resolutions": {
+    "Test": "portal:/workspace/Test"
   }
 }
