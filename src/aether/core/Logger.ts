@@ -5,6 +5,7 @@ class Logger {
     errorhex!: string;
     infohex!: string;
     warnhex!: string;
+    
     constructor(name, errorhex, infohex, warnhex) {
         this.name = name;
         this.errorhex = errorhex;
