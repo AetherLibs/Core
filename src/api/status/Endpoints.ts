@@ -13,4 +13,22 @@ export namespace Endpoint {
     export function incidents(): string {
         return `${API_V2_BASE}/incidents`;
     }
+
+    export namespace Report {
+        export function all(): string {
+            return `${API_V2_BASE}/reports`;
+        }
+    }
+
+    export namespace Update {
+        export function all(): string {
+            return `${API_V2_BASE}/updates`;
+        }
+    }
+
+    export namespace Incident {
+        export function all(): string {
+            return `${API_V2_BASE}/incidents`;
+        }
+    }
 }

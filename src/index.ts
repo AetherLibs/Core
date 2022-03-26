@@ -1,1 +1,2 @@
-export * from './aether/index';
+export * from './aether';
+export * from './api';

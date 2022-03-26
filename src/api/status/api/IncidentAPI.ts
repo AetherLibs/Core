@@ -1,4 +1,4 @@
-import type { AxiosInstance } from "axios";
+import { AxiosInstance } from "axios";
 
 import {Endpoint} from '../Endpoints';
 import type { Incidents } from "../interfaces/Result";
